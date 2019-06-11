@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mP9-SB-dMt">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="EduVr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050" y="132"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nbe-5m-ZN9">
+            <objects>
+                <viewController id="mP9-SB-dMt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5MM-u6-XMc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWx-CB-KQM">
+                                <rect key="frame" x="50" y="475" width="314" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AOM-Sk-GGV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="24"/>
+                                <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Matematicas">
+                                    <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxG-z9-kd3">
+                                <rect key="frame" x="50" y="561" width="314" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zkH-zN-Htq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="24"/>
+                                <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Ciencia">
+                                    <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sto-wz-JzC">
+                                <rect key="frame" x="50" y="643" width="314" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="sCS-Fl-aoO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="24"/>
+                                <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Lenguaje">
+                                    <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EDUVRLOGO" translatesAutoresizingMaskIntoConstraints="NO" id="bmx-b2-Jt9">
+                                <rect key="frame" x="67" y="216" width="279" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="165" id="W2l-VQ-aYG"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jV7-a1-h7M">
+                                <rect key="frame" x="50" y="726" width="314" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Y7p-r8-3af"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="24"/>
+                                <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Escanear QR">
+                                    <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu VR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqH-ph-zKF">
+                                <rect key="frame" x="20" y="103" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wIg-ZO-rxp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sto-wz-JzC" firstAttribute="leading" secondItem="4mF-Od-iM8" secondAttribute="leading" constant="50" id="01t-lE-y8W"/>
+                            <constraint firstItem="4mF-Od-iM8" firstAttribute="trailing" secondItem="SWx-CB-KQM" secondAttribute="trailing" constant="50" id="0hp-Ba-JnB"/>
+                            <constraint firstItem="4mF-Od-iM8" firstAttribute="trailing" secondItem="dxG-z9-kd3" secondAttribute="trailing" constant="50" id="2Nn-BT-v3B"/>
+                            <constraint firstItem="bmx-b2-Jt9" firstAttribute="leading" secondItem="4mF-Od-iM8" secondAttribute="leading" constant="67" id="6rc-iu-Ygb"/>
+                            <constraint firstItem="jV7-a1-h7M" firstAttribute="top" secondItem="sto-wz-JzC" secondAttribute="bottom" constant="39" id="C6R-o6-mo7"/>
+                            <constraint firstItem="4mF-Od-iM8" firstAttribute="trailing" secondItem="bmx-b2-Jt9" secondAttribute="trailing" constant="68" id="CLh-sl-lMG"/>
+                            <constraint firstItem="4mF-Od-iM8" firstAttribute="trailing" secondItem="sto-wz-JzC" secondAttribute="trailing" constant="50" id="D7q-Xi-5fR"/>
+                            <constraint firstItem="VqH-ph-zKF" firstAttribute="top" secondItem="4mF-Od-iM8" secondAttribute="top" constant="59" id="HHM-zk-JtX"/>
+                            <constraint firstItem="sto-wz-JzC" firstAttribute="top" secondItem="dxG-z9-kd3" secondAttribute="bottom" constant="32" id="Si2-4o-rGY"/>
+                            <constraint firstItem="SWx-CB-KQM" firstAttribute="leading" secondItem="4mF-Od-iM8" secondAttribute="leading" constant="50" id="UYI-oe-COb"/>
+                            <constraint firstItem="dxG-z9-kd3" firstAttribute="top" secondItem="SWx-CB-KQM" secondAttribute="bottom" constant="36" id="aUc-mv-tE4"/>
+                            <constraint firstItem="4mF-Od-iM8" firstAttribute="trailing" secondItem="VqH-ph-zKF" secondAttribute="trailing" constant="20" id="bRp-Nq-0P7"/>
+                            <constraint firstItem="VqH-ph-zKF" firstAttribute="leading" secondItem="4mF-Od-iM8" secondAttribute="leading" constant="20" id="eNd-EA-2JS"/>
+                            <constraint firstItem="jV7-a1-h7M" firstAttribute="top" secondItem="sto-wz-JzC" secondAttribute="bottom" constant="39" id="ijd-pM-Mfl"/>
+                            <constraint firstItem="bmx-b2-Jt9" firstAttribute="top" secondItem="VqH-ph-zKF" secondAttribute="bottom" constant="63" id="ma7-bj-XNL"/>
+                            <constraint firstItem="jV7-a1-h7M" firstAttribute="leading" secondItem="4mF-Od-iM8" secondAttribute="leading" constant="50" id="tBR-0I-3XQ"/>
+                            <constraint firstItem="dxG-z9-kd3" firstAttribute="leading" secondItem="4mF-Od-iM8" secondAttribute="leading" constant="50" id="u2W-9n-UF7"/>
+                            <constraint firstItem="4mF-Od-iM8" firstAttribute="trailing" secondItem="jV7-a1-h7M" secondAttribute="trailing" constant="50" id="vFv-zQ-BrE"/>
+                            <constraint firstItem="SWx-CB-KQM" firstAttribute="top" secondItem="bmx-b2-Jt9" secondAttribute="bottom" constant="94" id="vc1-K4-IET"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4mF-Od-iM8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8kn-hk-tV4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224.63768115942031" y="131.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EDUVRLOGO" width="399.1199951171875" height="276.72000122070312"/>
+    </resources>
+</document>
